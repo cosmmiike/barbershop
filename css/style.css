@@ -1,0 +1,257 @@
+html,
+body {
+  min-width: 1000px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+/*
+  background: #000 url("../img/bg-index.jpg") no-repeat 50% 3px;
+  background-size: 1122px auto;
+*/
+}
+
+div, section, main, footer, header, img {
+  /*  Только для оформления сетки  */
+  outline: 1px #000 solid ;
+}
+
+figure {
+  padding: 0;
+  margin: 0;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-header {
+  margin-bottom: 60px;
+}
+
+.inner-page .main-header {
+  margin-bottom: 0px;
+}
+
+.main-navigation {
+  float: left;
+  width: 780px;
+  
+  /*  Только для оформления сетки  */
+  min-height: 70px;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+  
+  /*  Только для оформления сетки  */
+  min-height: 70px;
+}
+
+main.container {
+  margin-bottom: 65px;
+}
+
+.index-logo {
+  height: 204px;
+  width: 368px;
+  margin-left: auto; 
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+
+.features {
+  margin-bottom: 80px;
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+  
+  /*  Только для оформления сетки  */
+  min-height: 175px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+} 
+
+.index-content {
+  padding: 50px 80px;
+  margin-bottom: 35px;
+}
+
+.index-content-left {
+  float: left;
+  width: 380px;
+  
+  /*  Только для оформления сетки  */
+  min-height: 430px;
+}
+
+.index-content-right {
+  float: right;
+  width: 300px;
+  
+  /*  Только для оформления сетки  */
+  min-height: 430px;
+}
+
+.price-main {
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.inner-page-title {
+  margin-bottom: 50px;
+}
+
+.big-heading {
+  margin-bottom: 60px;
+}
+
+.inner-columns {
+  margin-bottom: 60px;
+}
+
+.inner-columns:last-child {
+  margin-bottom: 0;
+}
+
+.inner-column-left {
+  float: left;
+  width: 380px;
+}
+
+.inner-column-right {
+  float: right;
+  width: 460px;
+}
+
+.item-main,
+.shop-main {
+  padding: 50px 0;
+}
+
+.item-column-left {
+  float: left;
+  width: 460px;
+}
+
+.item-column-right {
+  float: right;
+  width: 390px;
+  padding-top: 20px;
+}
+
+.item-photo-big {
+  margin-bottom: 20px;
+}
+
+.item-photo-small {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.item-photo-small:last-child {
+  margin-right: 0;
+}
+
+.item-info {
+  margin-bottom: 30px;
+}
+
+.item-availability {
+  float: left;
+}
+
+.item-number{
+  float: right;
+}
+
+.item-buy {
+  margin-bottom: 60px;
+}
+
+.shop-column-left {
+  float: left;
+  width: 220px;
+}
+
+.shop-column-right {
+  float: right;
+  width: 700px;
+}
+
+.shop-items{
+  margin-bottom: 45px;
+}
+
+.shop-items article {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 220px;
+  min-height: 286px;
+  
+  /*  Только для оформления сетки  */
+  outline: none;
+}
+
+.shop-items article:nth-child(3n) {
+  margin-right: 0;
+}
+
+.shop-items article:nth-last-child(-n+3) {
+  margin-bottom: 0;
+}
+
+.shop-item-option {
+  padding: 15px;
+}
+
+.shop-item-option .item-buy {
+  margin: 0;
+}
+
+.main-footer {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 80px;
+  
+  /*  Только для оформления сетки  */
+  min-height: 90px;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+  
+  /*  Только для оформления сетки  */
+  min-height: 90px;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+  
+  /*  Только для оформления сетки  */
+  min-height: 90px;
+}
