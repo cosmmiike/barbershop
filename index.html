@@ -10,7 +10,7 @@
 
 <body>
   <header class="main-header">
-    <div class="container clearfix"> <!--центровщик-->
+    <div class="container clearfix">
       <nav class="main-navigation">
         <ul>
           <li>
@@ -35,8 +35,8 @@
       </div>
     </div>
   </header>
-  
-  <main class="container"> <!--центровщик-->
+
+  <main class="container">
     <div class="index-logo">
       <img src="img/logo-index.png" alt="Барбершоп &laquo;Бородинский&raquo;" width="368" height="204">
     </div>
@@ -73,10 +73,10 @@
         <h2 class="index-content-title">Фотогалерея</h2>
         <div class="gallery">
           <figure class="gallery-content">
-            <img src="img/gallery-index-1.jpg" alt="" width="286" height="164">
+            <img src="img/gallery-index-1.jpg" alt="Барбершоп &laquo;Бородинский&raquo; width="286" height="164">
           </figure>
-          <button class="btn gallery-prev disabled">Назад</button>
-          <button class="btn gallery-next">Вперёд</button>
+          <button class="btn gallery-prev disabled" type="button">Назад</button>
+          <button class="btn gallery-next" type="button">Вперёд</button>
         </div>
       </div>
     </div>
@@ -93,7 +93,7 @@
           пн&nbsp;&mdash; пт: с&nbsp;10:00 до&nbsp;22:00<br>
           сб&nbsp;&mdash; вс: с&nbsp;10:00 до&nbsp;19:00
         </p>
-        <a class="btn" href="#">Как проехать</a>
+        <a class="btn btn-map" href="#">Как проехать</a>
         <a class="btn" href="#">Обратная связь</a>
       </div>
       <div class="index-content-right">
@@ -102,16 +102,16 @@
         <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
           <input type="text" name="date" value="" placeholder="Дата">
           <input type="text" name="time" value="" placeholder="Время">
-          <input type="text" name="name" value="" placeholder="Ваше имя">
-          <input type="tel" name="phone" value="" placeholder="Телефон">
+          <input type="text" name="name" value="" placeholder="Ваше имя" required>
+          <input type="tel" name="phone" value="" placeholder="Телефон" required>
           <button class="btn" type="submit">Отправить</button>
         </form>
       </div>
     </div>
   </main>
-  
+
   <footer class="main-footer">
-    <div class="container clearfix"> <!--центровщик-->
+    <div class="container clearfix">
       <section class="footer-contacts">
         Барбершоп &laquo;Borodinski&raquo;<br>
         Адрес: г.&nbsp;Санкт-Петербург, Б.&nbsp;Конюшенная, д.&nbsp;19/8<br>
