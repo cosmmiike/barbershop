@@ -1,25 +1,26 @@
 body {
-  min-width: 960px;
   margin: 0;
   padding: 0;
+  min-width: 960px;
+
   font-family: "PT Sans Narrow", "Arial", sans-serif;
-  font-weight: 700;
   font-size: 14px;
   line-height: 24px;
+  font-weight: 700;
   text-transform: uppercase;
-  color: #fff;
 
+  color: #fff;
   background: #000 url("../img/bg-index.jpg") no-repeat center top;
+}
+
+.inner-page {
+  color: #000;
+  background: #f8f5f2 url("../img/bg-content-block.png") repeat;
 }
 
 img {
   max-width: 100%;
   height: auto;
-}
-
-.inner-page {
-  background: #f8f5f2 url("../img/bg-content-block.png") repeat;
-  color: #000;
 }
 
 .clearfix::after {
@@ -29,14 +30,14 @@ img {
 }
 
 .container {
-  width: 940px;
   margin: 0 auto;
   padding: 0 10px;
+  width: 940px;
 }
 
 .main-header {
-  min-height: 70px;
   margin-bottom: 60px;
+  min-height: 70px;
   color: #fff;
   background-color: #000;
 }
@@ -53,15 +54,15 @@ img {
 .main-navigation ul {
   margin: 0;
   padding: 0;
-  list-style: none;
   font-size: 0;
+  list-style: none;
 }
 
 .main-navigation li {
   display: inline-block;
-  vertical-align: top;
   font-size: 16px;
   line-height: 20px;
+  vertical-align: top;
 }
 
 .main-navigation a {
@@ -97,9 +98,9 @@ img {
 
 .main-navigation .logo-inner {
   float: left;
+  padding-top: 22px;
   width: 111px;
   height: 20px;
-  padding-top: 22px;
 }
 
 .main-navigation .logo-inner img {
@@ -119,11 +120,13 @@ img {
 .login {
   position: relative;
   display: inline-block;
-  vertical-align: top;
   padding: 25px 20px;
   padding-left: 50px;
+
   font-size: 16px;
   line-height: 20px;
+  vertical-align: top;
+
   color: #fff;
   text-decoration: none;
 }
@@ -133,8 +136,10 @@ img {
   position: absolute;
   top: 27px;
   left: 20px;
+
   width: 18px;
   height: 18px;
+
   background: url("../img/sprite.png") 0 0 no-repeat;
   opacity: .3;
 }
@@ -153,37 +158,41 @@ main.container {
 }
 
 .index-logo {
-  height: 204px;
-  width: 368px;
   margin: 0 auto;
   margin-bottom: 25px;
+  height: 204px;
+  width: 368px;
 }
 
 .index-logo img {
-  height: 204px;
   width: 368px;
+  height: 204px;
 }
 
 .features {
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .features-item {
   float: left;
-  width: 300px;
   margin-right: 20px;
+  margin-bottom: 40px;
+  width: 300px;
+
   text-align: center;
 }
 
-.features-item:last-child {
+.features-item:nth-child(3n) {
   margin-right: 0;
 }
 
 .features-name {
   position: relative;
   display: block;
+
   margin-bottom: 30px;
   padding-bottom: 35px;
+
   font-size: 30px;
   line-height: 42px;
 }
@@ -193,10 +202,12 @@ main.container {
   position: absolute;
   bottom: 0;
   left: 50%;
-  margin-left: -10px;
+
   display: block;
+  margin-left: -10px;
   width: 20px;
   height: 20px;
+
   background-color: #fff;
   transform: rotate(45deg);
 }
@@ -207,8 +218,9 @@ main.container {
 }
 
 .index-content {
-  padding: 50px 80px;
   margin-bottom: 35px;
+  padding: 50px 80px;
+
   color: #000;
   background:
     url("../img/line-content-block.png") no-repeat center,
@@ -264,21 +276,22 @@ main.container {
 
 .btn {
   display: inline-block;
-  vertical-align: top;
   padding: 10px 33px;
   margin-right: 16px;
 
   font-family: "PT Sans Narrow", "Arial", sans-serif;
-  font-weight: 700;
   font-size: 14px;
   line-height: 24px;
+  font-weight: 700;
+  vertical-align: top;
+
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
-
   background-color: #000;
   border: none;
   outline: none;
+
   cursor: pointer;
 }
 
@@ -304,8 +317,8 @@ main.container {
 }
 
 .gallery-content {
-  height: 164px;
   margin: 0;
+  height: 164px;
   background-color: #ccc;
   border: 7px solid #fff;
 }
@@ -318,8 +331,8 @@ main.container {
 .gallery .btn {
   position: absolute;
   bottom: 0;
-  width: 140px;
   margin: 0;
+  width: 140px;
 }
 
 .gallery-prev {
@@ -334,8 +347,8 @@ main.container {
   float: left;
   margin-right: 20px;
   margin-bottom: 20px;
-  width: 106px;
   padding: 7px 15px;
+  width: 106px;
 
   font: inherit;
   color: inherit;
@@ -391,8 +404,10 @@ main.container {
   position: absolute;
   top: 4px;
   right: -23px;
+
   width: 8px;
   height: 8px;
+
   background-color: #000;
   transform: rotate(45deg);
 }
@@ -458,20 +473,24 @@ main.container {
 
 .big-heading h2 {
   position: relative;
-  z-index: 2;
+  z-index: 20;
+
   display: inline;
   margin: 0;
   padding: 0 25px;
+
   font-size: 48px;
   line-height: 48px;
+
   background: #f8f5f2 url("../img/bg-content-block.png");
 }
 
 .big-heading::after {
   content: "";
   position: relative;
-  z-index: 1;
   bottom: 25px;
+  z-index: 1;
+
   display: block;
   border-bottom: 2px solid #000;
 }
@@ -497,8 +516,10 @@ main.container {
   position: absolute;
   top: 8px;
   left: 0;
+
   width: 8px;
   height: 8px;
+
   background-color: #000;
   transform: rotate(45deg);
 }
@@ -553,8 +574,8 @@ main.container {
 
 .item-column-right {
   float: right;
-  width: 390px;
   padding-top: 20px;
+  width: 390px;
 }
 
 .item-photos {
@@ -573,13 +594,20 @@ main.container {
 .item-photo-small {
   display: inline-block;
   margin-right: 20px;
+  margin-bottom: 20px;
   width: 140px;
   height: 149px;
+
+  vertical-align: top;
   box-shadow:  0 0 15px rgba(0, 0, 0, .2);
 }
 
-.item-photo-small:last-child {
+.item-photo-small:nth-child(3n+1) {
   margin-right: 0;
+}
+
+.item-photo-small:nth-last-child(-n+3) {
+  margin-bottom: 0;
 }
 
 .item-info {
@@ -642,8 +670,10 @@ main.container {
   position: absolute;
   top: 8px;
   left: 0;
+
   width: 8px;
   height: 8px;
+
   background-color: #000;
   transform: rotate(45deg);
 }
@@ -690,9 +720,9 @@ main.container {
 }
 
 .shop-filter input {
-  display: none;
   position: absolute;
   left: 25px;
+  display: none;
   margin-bottom: 0;
 }
 
@@ -703,11 +733,13 @@ main.container {
 .shop-filter-manufacturer span,
 .shop-filter-group span {
   position: absolute;
-  display: block;
   top: -2px;
   left: -44px;
+
+  display: block;
   width: 16px;
   height: 16px;
+
   border: 2px solid #000;
 }
 
@@ -721,8 +753,10 @@ input[name="shop-manufacturer"]:checked + label > span::after {
   position: absolute;
   top: 7px;
   left: 0;
+
   width: 16px;
   height: 2px;
+
   background-color: #000;
 }
 
@@ -739,8 +773,10 @@ input[name="shop-goodsgroup"]:checked + label > span::before {
   position: absolute;
   top: 4px;
   left: 4px;
+
   width: 8px;
   height: 8px;
+
   border-radius: 4px;
   background-color: #000;
 }
@@ -767,11 +803,14 @@ input[name="shop-goodsgroup"]:disabled + label:hover {
 
 .shop-item {
   display: inline-block;
-  vertical-align: top;
+
   margin-right: 20px;
   margin-bottom: 20px;
   width: 220px;
+
   font-size: 14px;
+  vertical-align: top;
+
   background-color: #fff;
   box-shadow:  0 0 15px rgba(0, 0, 0, .2);
 }
@@ -823,6 +862,7 @@ shop-item img {
   float: left;
   padding: 10px 20px;
   width: 68px;
+
   line-height: 24px;
   text-align: center;
 }
@@ -833,16 +873,19 @@ shop-item img {
 
 .paginator a {
   display: inline-block;
-  vertical-align: top;
   margin-right: 7px;
   padding: 10px 0;
-  text-align: center;
+
   width: 44px;
   height: 24px;
+
   font-size: 14px;
-  background-color: #000;
-  color: #fff;
+  vertical-align: top;
+  text-align: center;
   text-decoration: none;
+
+  color: #fff;
+  background-color: #000;
 }
 
 .paginator a:hover {
@@ -865,8 +908,8 @@ shop-item img {
 
 .footer-contacts {
   float: left;
-  width: 320px;
   margin-right: 80px;
+  width: 320px;
 }
 
 .footer-contacts a {
@@ -890,30 +933,30 @@ shop-item img {
 
 .social-btn {
   display: inline-block;
-  vertical-align: top;
+  margin: 0 2px;
   width: 43px;
   height: 43px;
-  margin: 0 2px;
 
   font-size: 0;
+  vertical-align: top;
   text-decoration: none;
-  background: #000 url("../img/sprite.png") no-repeat;
 
+  background: #000 url("../img/sprite.png") no-repeat;
   transition:
     background-position .5s,
     background-color .5s;
 }
 
 .social-btn-vk {
-  background-position: 8px -65px;
+  background-position: 9px -260px;
 }
 
 .social-btn-fb {
-  background-position: 15px -120px;;
+  background-position: 15px -98px;
 }
 
 .social-btn-inst {
-  background-position: 12px -183px;;
+  background-position: 12px -182px;
 }
 
 .social-btn:hover {
@@ -921,15 +964,15 @@ shop-item img {
 }
 
 .social-btn-vk:hover {
-  background-position: 8px -91px;
+  background-position: 9px -296px;
 }
 
 .social-btn-fb:hover {
-  background-position: 15px -152px;
+  background-position: 15px -140px;
 }
 
 .social-btn-inst:hover {
-  background-position: 12px -214px;
+  background-position: 12px -223px;
 }
 
 .footer-copyright {
@@ -961,40 +1004,45 @@ shop-item img {
 }
 
 .modal-content {
-  display: none;
   position: fixed;
-  z-index: 30;
   top: 120px;
   left: 50%;
+  z-index: 30;
+
+  display: none;
   margin-left: -230px;
-  width: 300px;
   padding: 50px 80px;
+  width: 300px;
+
   color: #000;
   background: #f8f5f2 url("../img/bg-content-block.png");
   box-shadow: 0 30px 50px rgba(0, 0, 0, .7);
 }
 
 .modal-content-map {
-  display: none;
   position: fixed;
-  z-index: 20;
   top: 50%;
   left: 50%;
+  z-index: 20;
+
+  display: none;
   margin-top: -280px;
   margin-left: -390px;
   width: 766px;
   height: 561px;
+
   background: #e9e5dc url("../img/map.jpg");
   border: 7px solid #fff;
   box-shadow: 0 30px 50px rgba(0, 0, 0, .7);
 }
 
 .modal-overlay {
-  display: none;
   position: fixed;
-  z-index: 10;
   top: 0;
   left: 0;
+  z-index: 10;
+
+  display: none;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, .5);
@@ -1016,12 +1064,15 @@ shop-item img {
   position: absolute;
   top: 0;
   right: -34px;
+
   width: 22px;
   height: 22px;
+
   font-size: 0;
   background-color: transparent;
   border: 0;
   outline: 0;
+
   cursor: pointer;
 }
 
@@ -1031,8 +1082,10 @@ shop-item img {
   position: absolute;
   top: 10px;
   left: 2px;
+
   width: 19px;
   height: 3px;
+
   background-color: #d0d0d0;
   border-radius: 1px;
 }
@@ -1051,13 +1104,15 @@ shop-item img {
   margin-bottom: 10px;
   padding: 10px 20px;
   padding-right: 40px;
+
   width: 236px;
 
   font-size: 14px;
   line-height: 24px;
   font-family: "PT Sans Narrow", "Arial", sans-serif;
-  color: #000;
   text-transform: uppercase;
+
+  color: #000;
   background-color: #f9f6f3;
   border: 2px solid #000;
   outline: none;
@@ -1069,13 +1124,13 @@ shop-item img {
 }
 
 .login-form input.icon-user {
-  background: url("../img/icon-user.png") no-repeat;
-  background-position: right 13px center;
+  background: url("../img/sprite.png") no-repeat;
+  background-position: 100% -60px;
 }
 
 .login-form input.icon-password {
-  background: url("../img/icon-password.png") no-repeat;
-  background-position: right 13px center;
+  background: url("../img/sprite.png") no-repeat;
+  background-position: 100% -23px;
 }
 
 .login-form .restore {
@@ -1106,8 +1161,10 @@ shop-item img {
   position: absolute;
   top: -3px;
   left: 0;
+
   width: 17px;
   height: 17px;
+
   border: 2px solid #000;
 }
 
@@ -1117,8 +1174,10 @@ shop-item img {
   position: absolute;
   top: 8px;
   left: 1px;
+
   width: 15px;
   height: 2px;
+
   background-color: #000;
 }
 
@@ -1128,4 +1187,22 @@ shop-item img {
 
 .login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
   transform: rotate(-45deg);
+}
+
+.content-map {
+  margin: 0 auto;
+  width: 780px;
+}
+
+.google-map {
+  height: 561px;
+  width: 766px;
+
+  background: #e9e5dc url("../img/map.jpg");
+  border: 7px solid #fff;
+}
+
+.content-login {
+  margin: 0 auto;
+  width: 300px;
 }
